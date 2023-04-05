@@ -1,0 +1,8 @@
+<template>
+    <div>
+        <lightning-input  label="Enter the search content" placeholder=" enter the search text" value={value} onchange={handleChange}></lightning-input> <br/>
+        <lightning-button variant="base" label="clickme" name="buttonClicked"  onclick={handleonClick} ></lightning-button><br/>
+        <lightning-button variant="brand" label="search record" name="butsearch"  onclick={getbuttonresults} ></lightning-button><br/><br/>
+        <lightning-button variant="brand" label="show records" name="btnshow"  onclick={getbuttonresults} ></lightning-button><br/>
+    </div>
+</template>
